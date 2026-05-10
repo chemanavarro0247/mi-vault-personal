@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Vault Personal</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 20px; background: #0f0f0f; color: #eee; }
+    .container { max-width: 1000px; margin: auto; }
+    header { text-align: center; padding: 2rem; background: #1a1a1a; border-radius: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px; }
+    .card { background: #1f1f1f; padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+    .card h2 { margin-top: 0; color: #00ccff; }
+    button { background: #0066ff; color: white; border: none; padding: 10px 16px; border-radius: 8px; cursor: pointer; }
+    button:hover { background: #3388ff; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🔐 Mi Vault Personal</h1>
+      <p>Documentos • Fotos • Finanzas • Información Privada</p>
+    </header>
+
+    <div class="grid">
+      <div class="card">
+        <h2>📁 Documentos</h2>
+        <p>Sube PDFs, contratos, DNI, etc.</p>
+        <button onclick="alert('Próximamente: integración con R2')">Subir documento</button>
+      </div>
+      <div class="card">
+        <h2>🖼️ Fotos Importantes</h2>
+        <p>Álbum familiar, pasaporte, etc.</p>
+        <button onclick="alert('Próximamente')">Ver álbumes</button>
+      </div>
+      <div class="card">
+        <h2>💰 Finanzas</h2>
+        <p>Extractos, impuestos, inversiones</p>
+        <button onclick="alert('Próximamente')">Acceder</button>
+      </div>
+      <div class="card">
+        <h2>🔑 Información Sensible</h2>
+        <p>Contraseñas, claves, notas privadas</p>
+        <button onclick="alert('Usa Cloudflare Access para mayor seguridad')">Ver notas</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>Primer commit - página inicial
